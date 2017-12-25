@@ -294,6 +294,7 @@ div.flash img{
     height: 6.734rem;
     margin: 0 auto;
     background: #fff;
+    border-bottom: 1px solid #ededed;
 }
 .affordable .csh{
     width: 10rem;
@@ -392,9 +393,11 @@ div.flash img{
 /*天猫必逛部分开始*/
 .tmbg{
     margin-top: 0.186rem;
+    margin-bottom: 0.186rem;
     width: 10rem;
     height: 6.766rem;
     background-color: #fff;
+    border-bottom: 1px solid #ededed;
 }
 
 .tmbg .tm{
@@ -485,11 +488,11 @@ div.flash img{
 
 /*特色好货部分开始*/
 .features{
-    margin-top: 0.186rem;
     width: 10rem;
     height: 6.719rem;
     margin: 0 auto;
     background: #fff;
+    border-bottom: 1px solid #ededed;
 }
 .features .tshh{
     width: 10rem;
