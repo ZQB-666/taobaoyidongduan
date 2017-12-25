@@ -308,7 +308,7 @@ div.flash img{
     line-height: 0.844rem;
     color: rgb(255, 53, 14);
     font-size: 14px;
-   margin-left: 0.141rem;
+    margin-left: 0.141rem;
 }
 [data-dpr="2"] .affordable .csh a{
     font-size: 28px;
@@ -396,10 +396,195 @@ div.flash img{
     height: 6.766rem;
     background-color: #fff;
 }
+
+.tmbg .tm{
+    width: 10rem;
+    height: 0.844rem;
+    text-align: center;
+    background: url("../img/tmbg.png")no-repeat 4rem;
+    background-size: 0.422rem 0.422rem; 
+    border-bottom: 1px solid #ededed;
+}
+.tmbg .tm a{
+    height: 0.844rem;
+    line-height: 0.844rem;
+    color: rgb(209, 9, 9);
+    font-size: 14px;
+    margin-left: 0.6rem;
+}
+[data-dpr="2"] .tmbg .tm a{
+    font-size: 28px;
+}
+[data-dpr="3"] .tmbg .tm a{
+    font-size: 32px;
+}
+.tmbg .tm-top{
+    width: 10rem;
+    height: 2.922rem;
+    border-bottom: 1px solid #ededed;
+}
+.tmbg .tm-top .img1{
+    float: left;
+    width: 4.984rem;
+    height: 2.9rem;
+    background: url("../img/qqss.png");
+    background-size: contain;
+}
+.tmbg .tm-top .img2{
+    float: left;
+    width: 4.984rem;
+    height: 2.9rem;
+    background: url("../img/ppj.png");
+    background-size: contain;
+    border-left: 1px solid #ededed;
+}
+.tmbg .tm-bottom{
+    width: 10rem;
+    height: 2.938rem;
+}
+.tmbg .tm-bottom .img1{
+    float: left;
+    width: 2.484rem;
+    height: 2.938rem;
+    background: url("../img/tmhx.png");
+    background-size: contain;
+    border-left: 1px solid #ededed;
+}
+.tmbg .tm-bottom .img1{
+    float: left;
+    width: 2.484rem;
+    height: 2.938rem;
+    background: url("../img/tmhx.png");
+    background-size: contain;
+    border-left: 1px solid #ededed;
+}
+.tmbg .tm-bottom .img2{
+    float: left;
+    width: 2.484rem;
+    height: 2.938rem;
+    background: url("../img/ttgj.jpg");
+    background-size: contain;
+    border-left: 1px solid #ededed;
+}
+.tmbg .tm-bottom .img3{
+    float: left;
+    width: 2.484rem;
+    height: 2.938rem;
+    background: url("../img/mxs.jpg");
+    background-size: contain;
+    border-left: 1px solid #ededed;
+}
+.tmbg .tm-bottom .img4{
+    float: left;
+    width: 2.5rem;
+    height: 2.938rem;
+    background: url("../img/slyg.jpg");
+    background-size: contain;
+}
 /*天猫必逛部分结束*/
 
-
-
-
+/*特色好货部分开始*/
+.features{
+    margin-top: 0.186rem;
+    width: 10rem;
+    height: 6.719rem;
+    margin: 0 auto;
+    background: #fff;
+}
+.features .tshh{
+    width: 10rem;
+    height: 0.844rem;
+    text-align: center;
+    background: url("../img/tshh.png")no-repeat 4rem;
+    background-size: 0.422rem 0.422rem; 
+    border-bottom: 1px solid #ededed;
+}
+.features .tshh a{
+    height: 0.844rem;
+    line-height: 0.844rem;
+    color: rgb(255, 104, 19);
+    font-size: 14px;
+    margin-left: 0.6rem;
+}
+[data-dpr="2"] .features .tshh a{
+    font-size: 28px;
+}
+[data-dpr="3"] .features .tshh a{
+    font-size: 32px;
+}
+.features .tshh-top{
+    width: 10rem;
+    height: 2.916rem;
+}
+.features .tshh-top .img1{
+    float: left;
+    width: 3.828rem;
+    height: 2.916rem;
+    background: url("../img/qqg.png");
+    background-size: contain;
+    
+}
+.features .tshh-top .img2{
+    float: left;
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/aljk.jpg");
+    background-size: contain;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+.features .tshh-top .img3{
+    float: left;
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/jyj.png");
+    background-size: contain;
+    border-right: 1px solid #e8e8e8;
+}
+.features .tshh-top .img4{
+    float: left;
+    width: 2.047rem;
+    height: 2.916rem;
+    background: url("../img/pmc.png");
+    background-size: contain;
+}
+.features .tshh-bottom{
+    width: 10rem;
+    height: 2.916rem;
+    border-top: 1px solid #e8e8e8;
+}
+.features .tshh-bottom .img1{
+    float: left;
+    width: 3.828rem;
+    height: 2.916rem;
+    background: url("../img/zgzz.png");
+    background-size: contain;
+    
+}
+.features .tshh-bottom .img2{
+    float: left;
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/yyjk.png");
+    background-size: contain;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+.features .tshh-bottom .img3{
+    float: left;
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/tbzc.png");
+    background-size: contain;
+    border-right: 1px solid #e8e8e8;
+}
+.features .tshh-bottom .img4{
+    float: left;
+    width: 2.047rem;
+    height: 2.916rem;
+    background: url("../img/qd.jpg");
+    background-size: contain;
+}
+/*特色好货部分结束*/
 
 
