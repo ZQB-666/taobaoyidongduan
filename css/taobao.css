@@ -199,8 +199,7 @@ div.flash img{
     background-size: 1.533rem 0.44rem;
 }
 .toutiao .swiper-slide{
-    width: 10rem;
-    height: 0.746rem;
+    height: 0.933rem;
     overflow: hidden;
     color: rgb(53, 53, 53);
     font-size: 14px;
@@ -220,13 +219,12 @@ div.flash img{
     left: 2.1rem;
 }
 .toutiao span{
-    padding: 0.08rem;
-    border: 2px solid #d81421;
-    border-radius: 0.1rem;
-    margin-right: 0.173rem;
-    color: red;
+    padding: 0px 0.0625rem;
+    border: 1px solid rgb(216, 20, 33);
+    border-radius: 0.125rem;
+    color: rgb(216, 20, 33);
     font-size: 15px;
-    border-left: 2px solid;
+    margin-right: 0.146rem;
 }
 [data-dpr="2"] .toutiao span{
     font-size: 30px;
@@ -235,3 +233,13 @@ div.flash img{
     font-size: 45px;
 }
 /*头条结束*/
+/*海抢购部分开始*/
+.hqg{
+    margin-top: 0.08rem;
+    width: 10rem;
+    height: 5.063rem;
+    background: #fff;
+    border-bottom: 1px solid;
+
+}
+/*海抢购部分结束*/
