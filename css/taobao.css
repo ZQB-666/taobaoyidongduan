@@ -190,6 +190,7 @@ div.flash img{
     margin: 0 auto;
     line-height: 0.952rem;
     overflow: hidden;
+    margin-bottom: 0.186rem;
 
 }
 .toutiao .swiper-container{
@@ -234,12 +235,54 @@ div.flash img{
 }
 /*头条结束*/
 /*海抢购部分开始*/
-.hqg{
-    margin-top: 0.08rem;
+.tqg{
     width: 10rem;
     height: 5.063rem;
+    margin: 0 auto;
     background: #fff;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #dbdbdb;
 
+
+}
+.tqg .left{
+    float: left;
+    width: 3.828rem;
+    height: 5.047rem;
+    background: url("../img/tqg.jpg")no-repeat;
+    background-size: contain;
+
+}
+.tqg .right{
+    float: left;
+    width: 6.172rem;
+    height: 5.013rem;
+    border-left: 1px solid #dbdbdb;
+}
+.tqg .right .right-top{
+    width: 6.188rem;
+    height: 2.4rem;
+    border-bottom: 1px solid #dbdbdb;
+}
+.tqg .right .right-top .img1{
+    width: 3.047rem;
+    height: 2.38rem;
+}
+.tqg .right .right-top .img2{
+    width: 3.046rem;
+    height: 2.38rem;
+}
+.tqg .right .right-bottom{
+    width: 6.188rem;
+    height: 2.719rem;
+}
+.tqg .right .right-bottom .img1{
+    width: 3.046rem;
+    height: 2.64rem;
+    border-right: 1px solid #dbdbdb;
+
+}
+.tqg .right .right-bottom .img2{
+    width: 3.047rem;
+    height: 2.64rem;
 }
 /*海抢购部分结束*/
