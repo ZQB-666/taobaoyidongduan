@@ -328,7 +328,7 @@ div.flash img{
     background: url("../img/fcdp.jpg");
     background-size: contain;
     border-right: 1px solid #e8e8e8;
-    border-bottom: 2px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
 .affordable .csh-top .img2{
     float: left;
@@ -336,7 +336,7 @@ div.flash img{
     height: 2.916rem;
     background: url("../img/qqjx.png");
     background-size: contain;
-    border-bottom: 2px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
 .affordable .csh-top .img3{
     float: left;
@@ -346,15 +346,15 @@ div.flash img{
     background-size: contain;
     border-left: 1px solid #e8e8e8;
     border-right: 1px solid #e8e8e8;
-    border-bottom: 2px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
 .affordable .csh-top .img4{
     float: left;
-    width: 2.047rem;
+    width: 2.041rem;
     height: 2.916rem;
     background: url("../img/jmp.jpg");
     background-size: contain;
-    border-bottom: 2px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
 .affordable .csh-top .img5{
     float: left;
@@ -382,7 +382,7 @@ div.flash img{
 }
 .affordable .csh-top .img8{
     float: left;
-    width: 2.047rem;
+    width: 2.041rem;
     height: 2.916rem;
     background: url("../img/ppqc.png");
     background-size: contain;
