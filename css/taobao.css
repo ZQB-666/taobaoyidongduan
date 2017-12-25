@@ -475,7 +475,7 @@ div.flash img{
     height: 2.938rem;
     background: url("../img/mxs.jpg");
     background-size: contain;
-    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
 }
 .tmbg .tm-bottom .img4{
     float: left;
