@@ -295,8 +295,108 @@ div.flash img{
     margin: 0 auto;
     background: #fff;
 }
+.affordable .csh{
+    width: 10rem;
+    height: 0.844rem;
+    text-align: center;
+    background: url("../img/csh.png")no-repeat 4rem;
+    background-size: 0.422rem 0.422rem; 
+    border-bottom: 1px solid #ededed;
+}
+.affordable .csh a{
+    height: 0.844rem;
+    line-height: 0.844rem;
+    color: rgb(255, 53, 14);
+    font-size: 14px;
+   margin-left: 0.141rem;
+}
+[data-dpr="2"] .affordable .csh a{
+    font-size: 28px;
+}
+[data-dpr="3"] .affordable .csh a{
+    font-size: 32px;
+}
+.affordable .csh-top{
+    width: 10rem;
+    height: 2.916rem;
+    
+}
+.affordable .csh-top .img1{
+    float: left;
+    width: 3.828rem;
+    height: 2.916rem;
+    background: url("../img/fcdp.jpg");
+    background-size: contain;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 2px solid #e8e8e8;
+}
+.affordable .csh-top .img2{
+    float: left;
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/qqjx.png");
+    background-size: contain;
+    border-bottom: 2px solid #e8e8e8;
+}
+.affordable .csh-top .img3{
+    float: left;
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/czlf.png");
+    background-size: contain;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 2px solid #e8e8e8;
+}
+.affordable .csh-top .img4{
+    float: left;
+    width: 2.047rem;
+    height: 2.916rem;
+    background: url("../img/jmp.jpg");
+    background-size: contain;
+    border-bottom: 2px solid #e8e8e8;
+}
+.affordable .csh-top .img5{
+    float: left;
+    width: 3.828rem;
+    height: 2.916rem;
+    background: url("../img/tttj.png");
+    background-size: contain;
+    border-right: 1px solid #e8e8e8;
+}
+.affordable .csh-top .img6{
+    float: left;
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/ppdq.jpg");
+    background-size: contain;
+}
+.affordable .csh-top .img7{
+    float: left;
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/mlh.jpg");
+    background-size: contain;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+.affordable .csh-top .img8{
+    float: left;
+    width: 2.047rem;
+    height: 2.916rem;
+    background: url("../img/ppqc.png");
+    background-size: contain;
+}
 /*超实惠部分结束*/
 
+/*天猫必逛部分开始*/
+.tmbg{
+    margin-top: 0.186rem;
+    width: 10rem;
+    height: 6.766rem;
+    background-color: #fff;
+}
+/*天猫必逛部分结束*/
 
 
 
