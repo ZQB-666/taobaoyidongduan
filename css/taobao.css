@@ -241,12 +241,11 @@ div.flash img{
     margin: 0 auto;
     background: #fff;
     border-bottom: 1px solid #dbdbdb;
-
-
+    margin-bottom: 0.186rem;    
 }
 .tqg .left{
     float: left;
-    width: 3.828rem;
+    width: 3.820rem;
     height: 5.047rem;
     background: url("../img/tqg.jpg")no-repeat;
     background-size: contain;
@@ -276,13 +275,30 @@ div.flash img{
     height: 2.719rem;
 }
 .tqg .right .right-bottom .img1{
-    width: 3.025rem;
+    width: 3.035rem;
     height: 2.64rem;
     border-right: 1px solid #dbdbdb;
 
 }
 .tqg .right .right-bottom .img2{
-    width: 3.025rem;
+    width: 3.035rem;
     height: 2.64rem;
+    
 }
 /*海抢购部分结束*/
+
+
+/*超实惠部分开始*/
+.affordable{
+    width: 10rem;
+    height: 6.734rem;
+    background: #fff;
+}
+/*超实惠部分结束*/
+
+
+
+
+
+
+
