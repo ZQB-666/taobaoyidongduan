@@ -612,6 +612,7 @@ div.flash img{
     margin: 0 auto;
     background: #fff;
     border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
 }
 .service .tubiao{
     width: 10rem;
@@ -646,3 +647,41 @@ div.flash img{
 
 /*更多服务结束*/
 
+/*猜你很喜欢开始*/
+.cnxh{
+    width: 10rem;
+    height: 1.469rem;
+    margin: 0 auto;
+}
+.cnxh .xh{
+    width: 10rem;
+    height: 0.719rem;
+    text-align: center;
+    background: url("../img/xh.png")no-repeat 4rem;
+    margin-top: 0.266rem;
+    background-size: 0.531rem 0.516rem; 
+    border-bottom: 1px solid #ededed;
+}
+.cnxh .xh a{
+    line-height: 0.406rem;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    height: 0.719rem;
+    font-size: 14px;
+    line-height: 0.719rem;
+    padding-left: 0.7rem;
+}
+[data-dpr="2"] .cnxh .xh a{
+    font-size: 28px;
+}
+[data-dpr="3"] .cnxh .xh a{
+    font-size: 32px;
+}
+.cnxh .xh p{
+    width: 10rem;
+    height: 0.516rem;
+    line-height: 0.516rem;
+    text-align: center;
+    padding-top: -0.1rem;
+}
+/*猜你很喜欢结束*/
