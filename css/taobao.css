@@ -364,6 +364,7 @@ div.flash img{
     background: url("../img/tttj.png");
     background-size: contain;
     border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
 .affordable .csh-top .img6{
     float: left;
@@ -371,6 +372,7 @@ div.flash img{
     height: 2.916rem;
     background: url("../img/ppdq.jpg");
     background-size: contain;
+    border-bottom: 1px solid #e8e8e8;
 }
 .affordable .csh-top .img7{
     float: left;
@@ -380,6 +382,7 @@ div.flash img{
     background-size: contain;
     border-left: 1px solid #e8e8e8;
     border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
 .affordable .csh-top .img8{
     float: left;
@@ -387,15 +390,17 @@ div.flash img{
     height: 2.916rem;
     background: url("../img/ppqc.png");
     background-size: contain;
+    border-bottom: 1px solid #e8e8e8;
 }
 /*超实惠部分结束*/
 
 /*天猫必逛部分开始*/
-.tmbg{
+/*.tmbg{
     margin-top: 0.186rem;
     margin-bottom: 0.186rem;
     width: 10rem;
     height: 6.766rem;
+    margin: 0 auto;
     background-color: #fff;
     border-bottom: 1px solid #ededed;
 }
@@ -444,6 +449,7 @@ div.flash img{
 .tmbg .tm-bottom{
     width: 10rem;
     height: 2.938rem;
+    border-bottom: 1px solid #ededed;
 }
 .tmbg .tm-bottom .img1{
     float: left;
@@ -460,6 +466,7 @@ div.flash img{
     background: url("../img/tmhx.png");
     background-size: contain;
     border-left: 1px solid #ededed;
+    border-bottom: 1px solid #e8e8e8;
 }
 .tmbg .tm-bottom .img2{
     float: left;
@@ -468,6 +475,7 @@ div.flash img{
     background: url("../img/ttgj.jpg");
     background-size: contain;
     border-left: 1px solid #ededed;
+    border-bottom: 1px solid #e8e8e8;
 }
 .tmbg .tm-bottom .img3{
     float: left;
@@ -476,6 +484,7 @@ div.flash img{
     background: url("../img/mxs.jpg");
     background-size: contain;
     border-right: 1px solid #ededed;
+    border-bottom: 1px solid #e8e8e8;
 }
 .tmbg .tm-bottom .img4{
     float: left;
@@ -483,7 +492,8 @@ div.flash img{
     height: 2.938rem;
     background: url("../img/slyg.jpg");
     background-size: contain;
-}
+     border-bottom: 1px solid #e8e8e8;
+}*/
 /*天猫必逛部分结束*/
 
 /*特色好货部分开始*/
@@ -562,6 +572,7 @@ div.flash img{
     height: 2.916rem;
     background: url("../img/zgzz.png");
     background-size: contain;
+    border-bottom: 1px solid #e8e8e8;
     
 }
 .features .tshh-bottom .img2{
@@ -572,6 +583,7 @@ div.flash img{
     background-size: contain;
     border-left: 1px solid #e8e8e8;
     border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
 .features .tshh-bottom .img3{
     float: left;
@@ -580,6 +592,7 @@ div.flash img{
     background: url("../img/tbzc.png");
     background-size: contain;
     border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
 .features .tshh-bottom .img4{
     float: left;
@@ -587,7 +600,49 @@ div.flash img{
     height: 2.916rem;
     background: url("../img/qd.jpg");
     background-size: contain;
+    border-bottom: 1px solid #e8e8e8;
 }
 /*特色好货部分结束*/
 
+
+/*更多服务开始*/
+.service{
+    width: 10rem;
+    height: 0.953rem;
+    margin: 0 auto;
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+.service .tubiao{
+    width: 10rem;
+    height: 0.9rem;
+    background: url("../img/qmq.png")no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.service .tubiao span{
+    float: right;
+    height: 0.953rem;
+    line-height: 0.953rem;
+    padding-right: 0.7rem; 
+    font-size: 13px;
+    color: rgb(34, 34, 34);
+}
+[data-dpr="2"] .service .tubiao span{
+    font-size: 26px;
+}
+[data-dpr="3"] .service .tubiao span{
+    font-size: 39px;
+}
+.service .tubiao span i{
+    position: absolute;
+    width: 0.406rem;
+    height: 0.406rem;
+    margin-top: 0.281rem;
+    margin-left: 0.094rem;
+    background: url("../img/gdfw.png")no-repeat;
+    background-size: contain;
+}
+
+/*更多服务结束*/
 
