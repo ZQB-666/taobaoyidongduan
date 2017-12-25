@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #eeeeee;
+}
+/*header部分开始*/
+header{
+    width: 100%;
+    background: #fe5400;
+}
+header div.tru{
+    width: 100%;
+    height: 1rem;
+    margin:0 auto;
+    background: #fe5400 url("../img/logo.png")no-repeat 0.133rem;
+    background-size: 0.72rem 0.533rem;
+    position: relative;
+
+}
+header div.tru a{
+    width: 8.826rem;
+    height: 0.666rem;
+    background: #b52600;
+    display: inline-block;
+    color: #F0E0DC;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0.666rem;
+    position: absolute;
+    top: 0.16rem;
+    right:0.186rem;
+    border-radius: 0.1rem;
+}
+[data-dpr="2"] header div.tru a{
+    font-size: 26px;
+}
+[data-dpr="3"] header div.tru a {
+    font-size: 39px;
+}
+header div.tru a .iconfont.icon-fangdajing{
+    font-size: 15px;
+    color: #fff;
+}
+[data-dpr="2"] header div.tru a .iconfont.icon-fangdajing{
+    font-size: 30px;
+}
+[data-dpr="3"] header div.tru a .iconfont.icon-fangdajing{
+    font-size: 45px;
+}
+/*header部分结束*/
+
+/*轮播开始*/
+.flash{
+    width: 10rem;
+    height: 3.12rem;
+    margin:0 auto;
+    overflow: hidden;
+}
+div.flash img{
+    width: 10rem;
+    height: 3.12rem;
+}
+
+/*vertical-view部分开始*/
+.vertical-view{
+    width: 10rem;
+    height: 4.594rem;
+    margin:0 auto;
+    background: #fff;
+    border-bottom: 2px solid #e8e8e8;
+}
+.vertical-view .ul1 {
+    padding-top: 0.32rem;
+    margin-left: 0.359rem;
+    width: 9.641rem;
+    height: 2.125rem;
+    position: relative;
+
+}
+.vertical-view .ul2{
+    padding-top: 0.32rem;
+    margin-left: 0.359rem;
+    width: 9.641rem;
+    height: 2.125rem;
+    position: relative;
+}
+.vertical-view ul li{
+    display: inline-block;
+    text-align: center;
+}
+.vertical-view .ul1 li:nth-child(1){
+    background: url("../img/tm.png")no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+
+}
+.vertical-view .ul1 li:nth-child(2){
+    background: url("../img/ju.png") no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.vertical-view .ul1 li:nth-child(3){
+    background: url("../img/jk.png")no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.vertical-view .ul1 li:nth-child(4){
+    background: url("../img/wm.png")no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.vertical-view .ul1 li:nth-child(5){
+    background: url("../img/cs.png")no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.vertical-view .ul2 li:nth-child(1){
+    background: url("../img/chong.png")no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.vertical-view .ul2 li:nth-child(2){
+    background: url("../img/feiz.png")no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.vertical-view .ul2 li:nth-child(3){
+    background: url("../img/jb.png")no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.vertical-view .ul2 li:nth-child(4){
+    background: url("../img/pm.png")no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.vertical-view .ul2 li:nth-child(5){
+    background: url("../img/fl.png")no-repeat;
+    width: 1.78rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.vertical-view .ul1 li a{}
+.vertical-view ul li a p{
+    position: absolute;
+    bottom:0;
+    width: 1.78rem;
+    height: 0.688rem;
+    line-height: 0.688rem;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+[data-dpr="2"] .vertical-view ul li a p{
+    font-size: 24px;
+}
+[data-dpr="3"] .vertical-view ul li a p{
+    font-size: 36px;
+}
+/*vertical-view部分结束*/
+
+
+
+/*头条开始*/
+.toutiao{
+    width: 10rem;
+    height: 0.952rem;
+    margin: 0 auto;
+    line-height: 0.952rem;
+    overflow: hidden;
+
+}
+.toutiao .swiper-container{
+    width: 10rem;
+    height: 0.952rem;
+    background: #fff url("../img/toutiao.png")no-repeat 0.32rem;
+    background-size: 1.533rem 0.44rem;
+}
+.toutiao .swiper-slide{
+    width: 10rem;
+    height: 0.746rem;
+    overflow: hidden;
+    color: rgb(53, 53, 53);
+    font-size: 14px;
+    padding-left: 2.466rem;
+}
+[data-dpr="2"] .swiper-slide{
+    font-size: 28px;
+}
+[data-dpr="3"] .swiper-slide{
+    font-size: 42px;
+}
+.toutiao i{
+    border-left: 2px solid #e8e8e8;
+    height: 0.746rem;
+    position: absolute;
+    top: 0.08rem;
+    left: 2.1rem;
+}
+.toutiao span{
+    padding: 0.08rem;
+    border: 2px solid #d81421;
+    border-radius: 0.1rem;
+    margin-right: 0.173rem;
+    color: red;
+    font-size: 15px;
+    border-left: 2px solid;
+}
+[data-dpr="2"] .toutiao span{
+    font-size: 30px;
+}
+[data-dpr="3"] .toutiao span{
+    font-size: 45px;
+}
+/*头条结束*/
