@@ -6,10 +6,14 @@
 body{
     background: #eeeeee;
 }
+
 /*header部分开始*/
 header{
     width: 100%;
-    background: #fe5400;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
 }
 header div.tru{
     width: 100%;
@@ -166,7 +170,9 @@ div.flash img{
     background-position: 50% 50%;
 }
 
-.vertical-view .ul1 li a{}
+.vertical-view .ul1 li a{
+    text-decoration: none;
+}
 .vertical-view ul li a p{
     position: absolute;
     bottom:0;
@@ -313,6 +319,7 @@ div.flash img{
     color: rgb(255, 53, 14);
     font-size: 14px;
     margin-left: 0.141rem;
+    text-decoration: none;
 }
 [data-dpr="2"] .affordable .csh a{
     font-size: 28px;
@@ -421,6 +428,7 @@ div.flash img{
     color: rgb(209, 9, 9);
     font-size: 14px;
     margin-left: 0.6rem;
+    text-decoration: noen;
 }
 [data-dpr="2"] .tmbg .tm a{
     font-size: 28px;
@@ -522,6 +530,7 @@ div.flash img{
     color: rgb(255, 104, 19);
     font-size: 14px;
     margin-left: 0.6rem;
+    text-decoration: none;
 }
 [data-dpr="2"] .features .tshh a{
     font-size: 28px;
@@ -836,6 +845,7 @@ div.flash img{
     font-size: 14px;
     line-height: 0.719rem;
     padding-left: 0.7rem;
+    text-decoration: none;
 }
 [data-dpr="2"] .cnxh .xh a{
     font-size: 28px;
@@ -963,6 +973,7 @@ div.flash img{
     border-radius: 0.16rem;
     margin-left: 0.38rem;
     margin-top: 0.5rem;
+    text-decoration: none;
     
 }
 .pagebottom .bottom{
@@ -989,9 +1000,9 @@ footer{
     height: 1.4rem;
     margin: 0 auto;
     background: #fff;
-    position: fixed;
     border-top: 2px solid #ededed;
-    bottom: 0px;
+    position: sticky;
+    bottom: 0;
     z-index: 10;
     text-align: center;
 }
