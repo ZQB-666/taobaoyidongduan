@@ -966,3 +966,43 @@ div.flash img{
     font-size: 36px;
 }
 /*bottom结束*/
+
+
+/*footer部分开始*/
+footer{
+    width: 10rem;
+    height: 1.4rem;   
+    background: #fff;
+    position: fixed;
+    border-top: 2px solid #ededed;
+    bottom: 0px;
+    z-index: 10;
+}
+footer a{
+    width: 1.9rem;
+    text-align: center;
+    display: inline-block;
+    color: #5D656B;
+    
+    margin-top: 0.28rem;
+}
+footer a i.iconfont{
+    font-size: 16px;
+    
+}
+[data-dpr="2"] footer a i.iconfont{
+    font-size: 32px;
+}
+[data-dpr="3"] footer a i.iconfont{
+    font-size: 48px;
+}
+footer a p{
+    font-size: 14px;
+}
+[data-dpr="2"] footer a p{
+    font-size: 28px;
+}
+[data-dpr="3"] footer a p{
+    font-size: 42px;
+}
+/*footer部分结束*/
