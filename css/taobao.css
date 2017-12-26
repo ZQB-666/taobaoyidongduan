@@ -475,6 +475,7 @@ div.flash img{
     background: url("../img/ttgj.jpg");
     background-size: contain;
     border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
     border-bottom: 1px solid #e8e8e8;
 }
 .tmbg .tm-bottom .img3{
@@ -868,6 +869,8 @@ div.flash img{
 .cnxh .cnxh-neir .left{
     float: left;
     height: 7rem;
+
+
 }
 .cnxh .cnxh-neir .left .img1{
     width: 4.9rem;
