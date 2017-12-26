@@ -17,21 +17,24 @@ header div.tru{
     margin:0 auto;
     background: #fe5400 url("../img/logo.png")no-repeat 0.133rem;
     background-size: 0.72rem 0.533rem;
-    position: relative;
+    /*position: relative;*/
+    padding-left: 0.986rem;
+    padding-top: 0.16rem;
+    padding-right: 0.16rem;
 
 }
 header div.tru a{
-    width: 8.826rem;
-    height: 0.666rem;
+    width: 100%;
+    height: 0.666rem; 
     background: #b52600;
-    display: inline-block;
+    display: block;
     color: #F0E0DC;
     text-decoration: none;
     text-align: center;
     line-height: 0.666rem;
-    position: absolute;
+    /*position: absolute;
     top: 0.16rem;
-    right:0.186rem;
+    right:0.186rem;*/
     border-radius: 0.1rem;
 }
 [data-dpr="2"] header div.tru a{
@@ -950,7 +953,7 @@ div.flash img{
     
 }
 .pagebottom .butons a{
-    display: inline-block;
+    display: inline-flex;
     height: 0.9375rem;
     line-height: 0.9375rem;
     color: #c3c6ca;
@@ -963,7 +966,7 @@ div.flash img{
     
 }
 .pagebottom .bottom{
-   width: 10rem;
+    width: 10rem;
     height: 0.5625rem;
     line-height: 0.5625rem;
     text-align: center;
