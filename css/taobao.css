@@ -10,7 +10,7 @@ body{
 /*header部分开始*/
 header{
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 10;
 
@@ -65,6 +65,7 @@ header div.tru a .iconfont.icon-fangdajing{
     height: 3.12rem;
     margin:0 auto;
     overflow: hidden;
+    margin-top: 1.005rem;
 }
 div.flash img{
     width: 10rem;
@@ -958,6 +959,7 @@ div.flash img{
     height: 3rem;
     margin: 0 auto;
     background-color: #4e525e;
+    margin-bottom: 1.5rem;
 }
 .pagebottom .butons{
     
@@ -1001,7 +1003,7 @@ footer{
     margin: 0 auto;
     background: #fff;
     border-top: 2px solid #ededed;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     z-index: 10;
     text-align: center;
