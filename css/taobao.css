@@ -1,35 +1,38 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #eeeeee;
 }
 
+
 /*header部分开始*/
-header{
+
+header {
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 10;
-
 }
-header div.tru{
+
+header div.tru {
     width: 100%;
     height: 1rem;
-    margin:0 auto;
+    margin: 0 auto;
     background: #fe5400 url("../img/logo.png")no-repeat 0.133rem;
     background-size: 0.72rem 0.533rem;
     /*position: relative;*/
     padding-left: 0.986rem;
     padding-top: 0.16rem;
     padding-right: 0.16rem;
-
 }
-header div.tru a{
+
+header div.tru a {
     width: 100%;
-    height: 0.666rem; 
+    height: 0.666rem;
     background: #b52600;
     display: block;
     color: #F0E0DC;
@@ -41,129 +44,152 @@ header div.tru a{
     right:0.186rem;*/
     border-radius: 0.1rem;
 }
-[data-dpr="2"] header div.tru a{
+
+[data-dpr="2"] header div.tru a {
     font-size: 26px;
 }
+
 [data-dpr="3"] header div.tru a {
     font-size: 39px;
 }
-header div.tru a .iconfont.icon-fangdajing{
+
+header div.tru a .iconfont.icon-fangdajing {
     font-size: 15px;
     color: #fff;
 }
-[data-dpr="2"] header div.tru a .iconfont.icon-fangdajing{
+
+[data-dpr="2"] header div.tru a .iconfont.icon-fangdajing {
     font-size: 30px;
 }
-[data-dpr="3"] header div.tru a .iconfont.icon-fangdajing{
+
+[data-dpr="3"] header div.tru a .iconfont.icon-fangdajing {
     font-size: 45px;
 }
+
+
 /*header部分结束*/
 
+
 /*轮播开始*/
-.flash{
+
+.flash {
     width: 10rem;
     height: 3.12rem;
-    margin:0 auto;
+    margin: 0 auto;
     overflow: hidden;
     margin-top: 1.005rem;
 }
-div.flash img{
+
+div.flash img {
     width: 10rem;
     height: 3.12rem;
 }
 
+
 /*vertical-view部分开始*/
-.vertical-view{
+
+.vertical-view {
     width: 10rem;
     height: 4.594rem;
-    margin:0 auto;
+    margin: 0 auto;
     background: #fff;
     border-bottom: 2px solid #e8e8e8;
 }
+
 .vertical-view .ul1 {
     padding-top: 0.32rem;
     margin-left: 0.359rem;
     width: 9.641rem;
     height: 2.125rem;
     position: relative;
-
 }
-.vertical-view .ul2{
+
+.vertical-view .ul2 {
     padding-top: 0.32rem;
     margin-left: 0.359rem;
     width: 9.641rem;
     height: 2.125rem;
     position: relative;
 }
-.vertical-view ul li{
+
+.vertical-view ul li {
     display: inline-block;
     text-align: center;
 }
-.vertical-view .ul1 li:nth-child(1){
+
+.vertical-view .ul1 li:nth-child(1) {
     background: url("../img/tm.png")no-repeat;
     width: 1.78rem;
     height: 1.141rem;
     background-size: contain;
     background-position: 50% 50%;
-
 }
-.vertical-view .ul1 li:nth-child(2){
+
+.vertical-view .ul1 li:nth-child(2) {
     background: url("../img/ju.png") no-repeat;
     width: 1.78rem;
     height: 1.141rem;
     background-size: contain;
     background-position: 50% 50%;
 }
-.vertical-view .ul1 li:nth-child(3){
+
+.vertical-view .ul1 li:nth-child(3) {
     background: url("../img/jk.png")no-repeat;
     width: 1.78rem;
     height: 1.141rem;
     background-size: contain;
     background-position: 50% 50%;
 }
-.vertical-view .ul1 li:nth-child(4){
+
+.vertical-view .ul1 li:nth-child(4) {
     background: url("../img/wm.png")no-repeat;
     width: 1.78rem;
     height: 1.141rem;
     background-size: contain;
     background-position: 50% 50%;
 }
-.vertical-view .ul1 li:nth-child(5){
+
+.vertical-view .ul1 li:nth-child(5) {
     background: url("../img/cs.png")no-repeat;
     width: 1.78rem;
     height: 1.141rem;
     background-size: contain;
     background-position: 50% 50%;
 }
-.vertical-view .ul2 li:nth-child(1){
+
+.vertical-view .ul2 li:nth-child(1) {
     background: url("../img/chong.png")no-repeat;
     width: 1.78rem;
     height: 1.141rem;
     background-size: contain;
     background-position: 50% 50%;
 }
-.vertical-view .ul2 li:nth-child(2){
+
+.vertical-view .ul2 li:nth-child(2) {
     background: url("../img/feiz.png")no-repeat;
     width: 1.78rem;
     height: 1.141rem;
     background-size: contain;
     background-position: 50% 50%;
 }
-.vertical-view .ul2 li:nth-child(3){
+
+.vertical-view .ul2 li:nth-child(3) {
     background: url("../img/jb.png")no-repeat;
     width: 1.78rem;
     height: 1.141rem;
     background-size: contain;
     background-position: 50% 50%;
 }
-.vertical-view .ul2 li:nth-child(4){
+
+.vertical-view .ul2 li:nth-child(4) {
     background: url("../img/pm.png")no-repeat;
     width: 1.78rem;
     height: 1.141rem;
     background-size: contain;
     background-position: 50% 50%;
 }
-.vertical-view .ul2 li:nth-child(5){
+
+.vertical-view .ul2 li:nth-child(5) {
     background: url("../img/fl.png")no-repeat;
     width: 1.78rem;
     height: 1.141rem;
@@ -171,65 +197,75 @@ div.flash img{
     background-position: 50% 50%;
 }
 
-.vertical-view .ul1 li a{
+.vertical-view .ul1 li a {
     text-decoration: none;
 }
-.vertical-view ul li a p{
+
+.vertical-view ul li a p {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     width: 1.78rem;
     height: 0.688rem;
     line-height: 0.688rem;
     font-size: 12px;
     color: rgb(102, 102, 102);
 }
-[data-dpr="2"] .vertical-view ul li a p{
+
+[data-dpr="2"] .vertical-view ul li a p {
     font-size: 24px;
 }
-[data-dpr="3"] .vertical-view ul li a p{
+
+[data-dpr="3"] .vertical-view ul li a p {
     font-size: 36px;
 }
+
+
 /*vertical-view部分结束*/
 
 
-
 /*头条开始*/
-.toutiao{
+
+.toutiao {
     width: 10rem;
     height: 0.952rem;
     margin: 0 auto;
     line-height: 0.952rem;
     overflow: hidden;
     margin-bottom: 0.186rem;
-
 }
-.toutiao .swiper-container{
+
+.toutiao .swiper-container {
     width: 10rem;
     height: 0.952rem;
     background: #fff url("../img/toutiao.png")no-repeat 0.32rem;
     background-size: 1.533rem 0.44rem;
 }
-.toutiao .swiper-slide{
+
+.toutiao .swiper-slide {
     height: 0.933rem;
     overflow: hidden;
     color: rgb(53, 53, 53);
     font-size: 14px;
     padding-left: 2.466rem;
 }
-[data-dpr="2"] .swiper-slide{
+
+[data-dpr="2"] .swiper-slide {
     font-size: 28px;
 }
-[data-dpr="3"] .swiper-slide{
+
+[data-dpr="3"] .swiper-slide {
     font-size: 42px;
 }
-.toutiao i{
+
+.toutiao i {
     border-left: 2px solid #e8e8e8;
     height: 0.746rem;
     position: absolute;
     top: 0.08rem;
     left: 2.1rem;
 }
-.toutiao span{
+
+.toutiao span {
     padding: 0px 0.0625rem;
     border: 1px solid rgb(216, 20, 33);
     border-radius: 0.125rem;
@@ -237,84 +273,101 @@ div.flash img{
     font-size: 15px;
     margin-right: 0.146rem;
 }
-[data-dpr="2"] .toutiao span{
+
+[data-dpr="2"] .toutiao span {
     font-size: 30px;
 }
-[data-dpr="3"] .toutiao span{
+
+[data-dpr="3"] .toutiao span {
     font-size: 45px;
 }
+
+
 /*头条结束*/
+
+
 /*海抢购部分开始*/
-.tqg{
+
+.tqg {
     width: 10rem;
     height: 5.063rem;
     margin: 0 auto;
     background: #fff;
     border-bottom: 1px solid #dbdbdb;
-    margin-bottom: 0.186rem;    
+    margin-bottom: 0.186rem;
 }
-.tqg .left{
+
+.tqg .left {
     float: left;
     width: 3.8rem;
     height: 5.047rem;
     background: url("../img/tqg.jpg")no-repeat;
     background-size: contain;
-
 }
-.tqg .right{
+
+.tqg .right {
     float: left;
     width: 6.172rem;
     height: 5.013rem;
     border-left: 1px solid #dbdbdb;
 }
-.tqg .right .right-top{
+
+.tqg .right .right-top {
     width: 6.172rem;
     height: 2.4rem;
     border-bottom: 1px solid #dbdbdb;
 }
-.tqg .right .right-top .img1{
+
+.tqg .right .right-top .img1 {
     width: 3.01rem;
     height: 2.38rem;
 }
-.tqg .right .right-top .img2{
+
+.tqg .right .right-top .img2 {
     width: 3.046rem;
     height: 2.38rem;
 }
-.tqg .right .right-bottom{
+
+.tqg .right .right-bottom {
     width: 6.172rem;
     height: 2.719rem;
 }
-.tqg .right .right-bottom .img1{
+
+.tqg .right .right-bottom .img1 {
     width: 3.025rem;
     height: 2.64rem;
     border-right: 1px solid #dbdbdb;
-
 }
-.tqg .right .right-bottom .img2{
+
+.tqg .right .right-bottom .img2 {
     width: 3.025rem;
     height: 2.64rem;
-    
 }
+
+
 /*海抢购部分结束*/
 
 
 /*超实惠部分开始*/
-.affordable{
+
+.affordable {
     width: 10rem;
     height: 6.734rem;
     margin: 0 auto;
     background: #fff;
     border-bottom: 1px solid #ededed;
 }
-.affordable .csh{
+
+.affordable .csh {
     width: 10rem;
     height: 0.844rem;
     text-align: center;
     background: url("../img/csh.png")no-repeat 4rem;
-    background-size: 0.422rem 0.422rem; 
+    background-size: 0.422rem 0.422rem;
     border-bottom: 1px solid #ededed;
 }
-.affordable .csh a{
+
+.affordable .csh a {
     height: 0.844rem;
     line-height: 0.844rem;
     color: rgb(255, 53, 14);
@@ -322,18 +375,21 @@ div.flash img{
     margin-left: 0.141rem;
     text-decoration: none;
 }
-[data-dpr="2"] .affordable .csh a{
+
+[data-dpr="2"] .affordable .csh a {
     font-size: 28px;
 }
-[data-dpr="3"] .affordable .csh a{
+
+[data-dpr="3"] .affordable .csh a {
     font-size: 32px;
 }
-.affordable .csh-top{
+
+.affordable .csh-top {
     width: 10rem;
     height: 2.916rem;
-    
 }
-.affordable .csh-top .img1{
+
+.affordable .csh-top .img1 {
     float: left;
     width: 3.828rem;
     height: 2.916rem;
@@ -342,7 +398,8 @@ div.flash img{
     border-right: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
 }
-.affordable .csh-top .img2{
+
+.affordable .csh-top .img2 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -350,7 +407,8 @@ div.flash img{
     background-size: contain;
     border-bottom: 1px solid #e8e8e8;
 }
-.affordable .csh-top .img3{
+
+.affordable .csh-top .img3 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -360,7 +418,8 @@ div.flash img{
     border-right: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
 }
-.affordable .csh-top .img4{
+
+.affordable .csh-top .img4 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -368,7 +427,8 @@ div.flash img{
     background-size: contain;
     border-bottom: 1px solid #e8e8e8;
 }
-.affordable .csh-top .img5{
+
+.affordable .csh-top .img5 {
     float: left;
     width: 3.828rem;
     height: 2.916rem;
@@ -377,7 +437,8 @@ div.flash img{
     border-right: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
 }
-.affordable .csh-top .img6{
+
+.affordable .csh-top .img6 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -385,7 +446,8 @@ div.flash img{
     background-size: contain;
     border-bottom: 1px solid #e8e8e8;
 }
-.affordable .csh-top .img7{
+
+.affordable .csh-top .img7 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -395,7 +457,8 @@ div.flash img{
     border-right: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
 }
-.affordable .csh-top .img8{
+
+.affordable .csh-top .img8 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -403,10 +466,14 @@ div.flash img{
     background-size: contain;
     border-bottom: 1px solid #e8e8e8;
 }
+
+
 /*超实惠部分结束*/
 
+
 /*天猫必逛部分开始*/
-.tmbg{
+
+.tmbg {
     margin-top: 0.186rem;
     width: 10rem;
     height: 6.766rem;
@@ -414,16 +481,17 @@ div.flash img{
     border-bottom: 1px solid #ededed;
 }
 
-.tmbg .tm{
+.tmbg .tm {
     margin-top: 0.186rem;
     width: 10rem;
     height: 0.844rem;
     text-align: center;
-    background:#fff  url("../img/tmbg.png")no-repeat 4rem;
-    background-size: 0.422rem 0.422rem; 
+    background: #fff url("../img/tmbg.png")no-repeat 4rem;
+    background-size: 0.422rem 0.422rem;
     border-bottom: 1px solid #ededed;
 }
-.tmbg .tm a{
+
+.tmbg .tm a {
     height: 0.844rem;
     line-height: 0.844rem;
     color: rgb(209, 9, 9);
@@ -431,25 +499,30 @@ div.flash img{
     margin-left: 0.6rem;
     text-decoration: noen;
 }
-[data-dpr="2"] .tmbg .tm a{
+
+[data-dpr="2"] .tmbg .tm a {
     font-size: 28px;
 }
-[data-dpr="3"] .tmbg .tm a{
+
+[data-dpr="3"] .tmbg .tm a {
     font-size: 32px;
 }
-.tmbg .tm-top{
+
+.tmbg .tm-top {
     width: 10rem;
     height: 2.922rem;
     border-bottom: 1px solid #ededed;
 }
-.tmbg .tm-top .img1{
+
+.tmbg .tm-top .img1 {
     float: left;
     width: 4.984rem;
     height: 2.9rem;
     background: url("../img/qqss.png");
     background-size: contain;
 }
-.tmbg .tm-top .img2{
+
+.tmbg .tm-top .img2 {
     float: left;
     width: 4.984rem;
     height: 2.9rem;
@@ -457,12 +530,14 @@ div.flash img{
     background-size: contain;
     border-left: 1px solid #ededed;
 }
-.tmbg .tm-bottom{
+
+.tmbg .tm-bottom {
     width: 10rem;
     height: 2.938rem;
     border-bottom: 1px solid #ededed;
 }
-.tmbg .tm-bottom .img1{
+
+.tmbg .tm-bottom .img1 {
     float: left;
     width: 2.484rem;
     height: 2.938rem;
@@ -470,7 +545,8 @@ div.flash img{
     background-size: contain;
     border-left: 1px solid #ededed;
 }
-.tmbg .tm-bottom .img1{
+
+.tmbg .tm-bottom .img1 {
     float: left;
     width: 2.484rem;
     height: 2.938rem;
@@ -479,7 +555,8 @@ div.flash img{
     border-left: 1px solid #ededed;
     border-bottom: 1px solid #e8e8e8;
 }
-.tmbg .tm-bottom .img2{
+
+.tmbg .tm-bottom .img2 {
     float: left;
     width: 2.484rem;
     height: 2.938rem;
@@ -489,7 +566,8 @@ div.flash img{
     border-right: 1px solid #ededed;
     border-bottom: 1px solid #e8e8e8;
 }
-.tmbg .tm-bottom .img3{
+
+.tmbg .tm-bottom .img3 {
     float: left;
     width: 2.484rem;
     height: 2.938rem;
@@ -498,34 +576,41 @@ div.flash img{
     border-right: 1px solid #ededed;
     border-bottom: 1px solid #e8e8e8;
 }
-.tmbg .tm-bottom .img4{
+
+.tmbg .tm-bottom .img4 {
     float: left;
     width: 2.5rem;
     height: 2.938rem;
     background: url("../img/slyg.jpg");
     background-size: contain;
-     border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
+
+
 /*天猫必逛部分结束*/
 
+
 /*特色好货部分开始*/
-.features{
-   padding-top: 0.186rem;
+
+.features {
+    padding-top: 0.186rem;
     width: 10rem;
     height: 6.719rem;
     margin: 0 auto;
     border-bottom: 1px solid #ededed;
 }
-.features .tshh{
+
+.features .tshh {
     width: 10rem;
     height: 0.844rem;
     margin: 0 auto;
     text-align: center;
     background: #fff url("../img/tshh.png")no-repeat 4rem;
-    background-size: 0.422rem 0.422rem; 
+    background-size: 0.422rem 0.422rem;
     border-bottom: 1px solid #ededed;
 }
-.features .tshh a{
+
+.features .tshh a {
     height: 0.844rem;
     line-height: 0.844rem;
     color: rgb(255, 104, 19);
@@ -533,26 +618,30 @@ div.flash img{
     margin-left: 0.6rem;
     text-decoration: none;
 }
-[data-dpr="2"] .features .tshh a{
+
+[data-dpr="2"] .features .tshh a {
     font-size: 28px;
 }
-[data-dpr="3"] .features .tshh a{
+
+[data-dpr="3"] .features .tshh a {
     font-size: 32px;
 }
-.features .tshh-top{
+
+.features .tshh-top {
     width: 10rem;
     height: 2.916rem;
     margin: 0 auto;
 }
-.features .tshh-top .img1{
+
+.features .tshh-top .img1 {
     float: left;
     width: 3.828rem;
     height: 2.916rem;
     background: url("../img/qqg.png");
     background-size: contain;
-    
 }
-.features .tshh-top .img2{
+
+.features .tshh-top .img2 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -561,7 +650,8 @@ div.flash img{
     border-left: 1px solid #e8e8e8;
     border-right: 1px solid #e8e8e8;
 }
-.features .tshh-top .img3{
+
+.features .tshh-top .img3 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -569,29 +659,32 @@ div.flash img{
     background-size: contain;
     border-right: 1px solid #e8e8e8;
 }
-.features .tshh-top .img4{
+
+.features .tshh-top .img4 {
     float: left;
     width: 2.047rem;
     height: 2.916rem;
     background: url("../img/pmc.png");
     background-size: contain;
 }
-.features .tshh-bottom{
+
+.features .tshh-bottom {
     width: 10rem;
     height: 2.916rem;
     margin: auto;
     border-top: 1px solid #e8e8e8;
 }
-.features .tshh-bottom .img1{
+
+.features .tshh-bottom .img1 {
     float: left;
     width: 3.828rem;
     height: 2.916rem;
     background: url("../img/zgzz.png");
     background-size: contain;
     border-bottom: 1px solid #e8e8e8;
-    
 }
-.features .tshh-bottom .img2{
+
+.features .tshh-bottom .img2 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -601,7 +694,8 @@ div.flash img{
     border-right: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
 }
-.features .tshh-bottom .img3{
+
+.features .tshh-bottom .img3 {
     float: left;
     width: 2.041rem;
     height: 2.916rem;
@@ -610,7 +704,8 @@ div.flash img{
     border-right: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
 }
-.features .tshh-bottom .img4{
+
+.features .tshh-bottom .img4 {
     float: left;
     width: 2.047rem;
     height: 2.916rem;
@@ -618,11 +713,14 @@ div.flash img{
     background-size: contain;
     border-bottom: 1px solid #e8e8e8;
 }
+
+
 /*特色好货部分结束*/
 
 
 /*更多服务开始*/
-.service{
+
+.service {
     width: 10rem;
     height: 0.953rem;
     margin: 0 auto;
@@ -630,28 +728,33 @@ div.flash img{
     border-bottom: 1px solid #e8e8e8;
     border-top: 1px solid #e8e8e8;
 }
-.service .tubiao{
+
+.service .tubiao {
     width: 10rem;
     height: 0.9rem;
     background: url("../img/qmq.png")no-repeat;
     background-size: contain;
     position: relative;
 }
-.service .tubiao span{
+
+.service .tubiao span {
     float: right;
     height: 0.953rem;
     line-height: 0.953rem;
-    padding-right: 0.7rem; 
+    padding-right: 0.7rem;
     font-size: 13px;
     color: rgb(34, 34, 34);
 }
-[data-dpr="2"] .service .tubiao span{
+
+[data-dpr="2"] .service .tubiao span {
     font-size: 26px;
 }
-[data-dpr="3"] .service .tubiao span{
+
+[data-dpr="3"] .service .tubiao span {
     font-size: 39px;
 }
-.service .tubiao span i{
+
+.service .tubiao span i {
     position: absolute;
     width: 0.406rem;
     height: 0.406rem;
@@ -660,10 +763,14 @@ div.flash img{
     background: url("../img/gdfw.png")no-repeat;
     background-size: contain;
 }
+
+
 /*更多服务结束*/
 
+
 /*国际创意开始*/
-.gjcy{
+
+.gjcy {
     width: 10rem;
     height: 2rem;
     margin: 0 auto;
@@ -671,52 +778,62 @@ div.flash img{
     background-size: contain;
     margin-bottom: 0.186rem;
 }
+
+
 /*国际创意结束*/
 
 
 /*每日好店开始*/
-.mrhd{
+
+.mrhd {
     width: 10rem;
     height: 5.344rem;
     margin: 0 auto;
     background: #fff;
-    
 }
-.mrhd .gd{
+
+.mrhd .gd {
     width: 10rem;
     height: 0.969rem;
     border-left: 10px solid #ffb139;
     border-bottom: 1px solid #e8e8e8;
-     position: relative;
+    position: relative;
     margin-bottom: 0.1rem;
 }
-.mrhd .gd span{
+
+.mrhd .gd span {
     height: 0.969rem;
     line-height: 0.969rem;
     margin-left: 0.188rem;
     color: rgb(34, 34, 34);
     font-size: 15px;
 }
-[data-dpr="2"] .mrhd .gd span{
+
+[data-dpr="2"] .mrhd .gd span {
     font-size: 30px;
 }
-[data-dpr="3"] .mrhd .gd span{
+
+[data-dpr="3"] .mrhd .gd span {
     font-size: 45px;
 }
-.mrhd .gd p{
+
+.mrhd .gd p {
     float: right;
     height: 0.969rem;
     line-height: 0.969rem;
     margin-right: 0.7rem;
     font-size: 13px;
 }
-[data-dpr="2"] .mrhd .gd p{
+
+[data-dpr="2"] .mrhd .gd p {
     font-size: 26px;
 }
-[data-dpr="3"] .mrhd .gd p{
+
+[data-dpr="3"] .mrhd .gd p {
     font-size: 39px;
 }
-.mrhd .gd p i{
+
+.mrhd .gd p i {
     display: block;
     width: 0.406rem;
     height: 0.406rem;
@@ -727,19 +844,20 @@ div.flash img{
     right: 0.2rem;
 }
 
-.mrhd .swiper-container{
+.mrhd .swiper-container {
     width: 10rem;
     height: 4.375rem;
 }
 
-.mrhd .swiper-container .swiper-wrapper .left{
+.mrhd .swiper-container .swiper-wrapper .left {
     float: left;
     margin-left: 0.188rem;
     width: 4.813rem;
     height: 3.188rem;
     border-bottom: 1px solid;
 }
-.mrhd .swiper-container .swiper-wrapper .left .img1{
+
+.mrhd .swiper-container .swiper-wrapper .left .img1 {
     float: left;
     width: 3.125rem;
     height: 3.188rem;
@@ -747,14 +865,16 @@ div.flash img{
     background-size: contain;
     margin-right: 0.063rem;
 }
-.mrhd .swiper-container .swiper-wrapper .left .img2{
+
+.mrhd .swiper-container .swiper-wrapper .left .img2 {
     float: left;
     width: 1.563rem;
     height: 1.563rem;
     background: url("../img/mr2.jpg");
     background-size: contain;
 }
-.mrhd .swiper-container .swiper-wrapper .left .img3{
+
+.mrhd .swiper-container .swiper-wrapper .left .img3 {
     float: left;
     width: 1.563rem;
     height: 1.563rem;
@@ -762,25 +882,30 @@ div.flash img{
     background-size: contain;
     margin-top: 0.063rem;
 }
-.mrhd .swiper-container .swiper-wrapper .left span{
+
+.mrhd .swiper-container .swiper-wrapper .left span {
     width: 4.75rem;
     height: 0.5rem;
     float: left;
     font-size: 13px;
     color: rgb(34, 34, 34);
 }
-[data-dpr="2"] .mrhd .swiper-container .swiper-wrapper .left span{
+
+[data-dpr="2"] .mrhd .swiper-container .swiper-wrapper .left span {
     font-size: 26px;
 }
-[data-dpr="3"] .mrhd .swiper-container .swiper-wrapper .left span{
+
+[data-dpr="3"] .mrhd .swiper-container .swiper-wrapper .left span {
     font-size: 39px;
 }
-.mrhd .swiper-container .swiper-wrapper .right{
+
+.mrhd .swiper-container .swiper-wrapper .right {
     float: left;
     width: 4.75rem;
     height: 3.188rem;
 }
-.mrhd .swiper-container .swiper-wrapper .right .img1{
+
+.mrhd .swiper-container .swiper-wrapper .right .img1 {
     float: left;
     width: 3.12rem;
     height: 3.188rem;
@@ -788,57 +913,64 @@ div.flash img{
     background-size: contain;
     margin-right: 0.063rem;
 }
-.mrhd .swiper-container .swiper-wrapper .right .img2{
+
+.mrhd .swiper-container .swiper-wrapper .right .img2 {
     float: left;
     width: 1.563rem;
     height: 1.563rem;
     background: url("../img/mr5.jpg");
     background-size: contain;
 }
-.mrhd .swiper-container .swiper-wrapper .right .img3{
+
+.mrhd .swiper-container .swiper-wrapper .right .img3 {
     float: left;
     width: 1.563rem;
     height: 1.563rem;
     background: url("../img/mr6.jpg");
     background-size: contain;
 }
-.mrhd .swiper-container .swiper-wrapper .right span{
+
+.mrhd .swiper-container .swiper-wrapper .right span {
     width: 4.75rem;
     height: 0.5rem;
     float: left;
     font-size: 13px;
     color: rgb(34, 34, 34);
 }
-[data-dpr="2"] .mrhd .swiper-container .swiper-wrapper .right span{
+
+[data-dpr="2"] .mrhd .swiper-container .swiper-wrapper .right span {
     font-size: 26px;
 }
-[data-dpr="3"] .mrhd .swiper-container .swiper-wrapper .right span{
+
+[data-dpr="3"] .mrhd .swiper-container .swiper-wrapper .right span {
     font-size: 39px;
 }
+
+
 /*每日好店结束*/
 
 
-
-
 /*猜你很喜欢开始*/
-.cnxh{
+
+.cnxh {
     width: 10rem;
     height: 15.5rem;
     margin: 0 auto;
     background: #fff;
-
 }
-.cnxh .xh{
+
+.cnxh .xh {
     width: 10rem;
     height: 1.469rem;
     text-align: center;
     background: #eee url("../img/xh.png")no-repeat 4rem;
     padding-top: 0.35rem;
-    background-size: 0.531rem 0.516rem; 
+    background-size: 0.531rem 0.516rem;
     border-bottom: 1px solid #ededed;
     position: relative;
 }
-.cnxh .xh a{
+
+.cnxh .xh a {
     line-height: 0.406rem;
     font-weight: bold;
     color: rgb(51, 51, 51);
@@ -848,13 +980,16 @@ div.flash img{
     padding-left: 0.7rem;
     text-decoration: none;
 }
-[data-dpr="2"] .cnxh .xh a{
+
+[data-dpr="2"] .cnxh .xh a {
     font-size: 28px;
 }
-[data-dpr="3"] .cnxh .xh a{
+
+[data-dpr="3"] .cnxh .xh a {
     font-size: 32px;
 }
-.cnxh .xh span{
+
+.cnxh .xh span {
     line-height: 0.516rem;
     text-align: center;
     position: absolute;
@@ -862,61 +997,65 @@ div.flash img{
     left: 3.5rem;
     color: rgb(120, 120, 120);
     font-size: 12px;
-    
 }
-[data-dpr="2"] .cnxh .xh span{
+
+[data-dpr="2"] .cnxh .xh span {
     font-size: 24px;
 }
-[data-dpr="3"] .cnxh .xh span{
+
+[data-dpr="3"] .cnxh .xh span {
     font-size: 36px;
 }
-.cnxh section{
+
+.cnxh section {
     width: 10rem;
     background: #fff;
 }
-.cnxh .cnxh-neir{
+
+.cnxh .cnxh-neir {
     width: 10rem;
     height: 7rem;
 }
-.cnxh .cnxh-neir .left{
+
+.cnxh .cnxh-neir .left {
     float: left;
     height: 7rem;
-
-
 }
-.cnxh .cnxh-neir .left .img1{
+
+.cnxh .cnxh-neir .left .img1 {
     width: 4.9rem;
     height: 5rem;
     background: url("../img/cnxh1.jpg")no-repeat;
     background-size: contain;
-
 }
-.cnxh .cnxh-neir .left .img3{
+
+.cnxh .cnxh-neir .left .img3 {
     width: 4.9rem;
     height: 5rem;
     background: url("../img/cnxh3.jpg")no-repeat;
     background-size: contain;
-
 }
-.cnxh .cnxh-neir .right{
+
+.cnxh .cnxh-neir .right {
     float: right;
     height: 7rem;
 }
-.cnxh section .cnxh-neir .right .img2{
+
+.cnxh section .cnxh-neir .right .img2 {
     width: 4.9rem;
     height: 5rem;
     background: url("../img/cnxh2.jpg")no-repeat;
     background-size: contain;
-
 }
-.cnxh section .cnxh-neir .right .img4{
+
+.cnxh section .cnxh-neir .right .img4 {
     width: 4.9rem;
     height: 5rem;
     background: url("../img/cnxh4.jpg")no-repeat;
     background-size: contain;
-
 }
-.cnxh .cnxh-neir .p1{
+
+.cnxh .cnxh-neir .p1 {
     float: left;
     margin-bottom: 0.2rem;
     width: 4.8rem;
@@ -931,40 +1070,47 @@ div.flash img{
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
-[data-dpr="2"] .cnxh .cnxh-neir .p1{
+
+[data-dpr="2"] .cnxh .cnxh-neir .p1 {
     font-size: 24px;
 }
-[data-dpr="3"] .cnxh .cnxh-neir .p1{
+
+[data-dpr="3"] .cnxh .cnxh-neir .p1 {
     font-size: 36px;
 }
-.cnxh .cnxh-neir .p2{
+
+.cnxh .cnxh-neir .p2 {
     width: 4.8rem;
     height: 0.933rem;
     font-size: 16px;
     color: rgb(255, 80, 0);
-
 }
-[data-dpr="2"] .cnxh .cnxh-neir .p2{
+
+[data-dpr="2"] .cnxh .cnxh-neir .p2 {
     font-size: 32px;
 }
-[data-dpr="3"] .cnxh .cnxh-neir .p2{
+
+[data-dpr="3"] .cnxh .cnxh-neir .p2 {
     font-size: 48px;
 }
+
+
 /*猜你很喜欢结束*/
 
 
 /*bottom开始*/
-.pagebottom{
+
+.pagebottom {
     width: 10rem;
     height: 3rem;
     margin: 0 auto;
     background-color: #4e525e;
     margin-bottom: 1.5rem;
 }
-.pagebottom .butons{
-    
-}
-.pagebottom .butons a{
+
+.pagebottom .butons {}
+
+.pagebottom .butons a {
     display: inline-flex;
     height: 0.9375rem;
     line-height: 0.9375rem;
@@ -976,9 +1122,9 @@ div.flash img{
     margin-left: 0.38rem;
     margin-top: 0.5rem;
     text-decoration: none;
-    
 }
-.pagebottom .bottom{
+
+.pagebottom .bottom {
     width: 10rem;
     height: 0.5625rem;
     line-height: 0.5625rem;
@@ -987,17 +1133,22 @@ div.flash img{
     color: #c3c6ca;
     font-size: 12px;
 }
-[data-dpr="2"] .pagebottom .bottom{
+
+[data-dpr="2"] .pagebottom .bottom {
     font-size: 24px;
 }
-[data-dpr="3"] .pagebottom .bottom{
+
+[data-dpr="3"] .pagebottom .bottom {
     font-size: 36px;
 }
+
+
 /*bottom结束*/
 
 
 /*footer部分开始*/
-footer{
+
+footer {
     width: 100%;
     height: 1.4rem;
     margin: 0 auto;
@@ -1008,49 +1159,172 @@ footer{
     z-index: 10;
     text-align: center;
 }
-footer a{
-    width: 1.9rem;
+
+footer a {
+    width: 19%;
     text-align: center;
     display: inline-block;
     color: #5D656B;
     margin-top: 0.28rem;
+    text-decoration: none;
 }
-footer a i.iconfont{
+
+footer a i.iconfont {
     font-size: 16px;
-    
 }
-[data-dpr="2"] footer a i.iconfont{
+
+[data-dpr="2"] footer a i.iconfont {
     font-size: 32px;
 }
-[data-dpr="3"] footer a i.iconfont{
+
+[data-dpr="3"] footer a i.iconfont {
     font-size: 48px;
 }
-footer a p{
+
+footer a p {
     font-size: 14px;
 }
-[data-dpr="2"] footer a p{
+
+[data-dpr="2"] footer a p {
     font-size: 28px;
 }
-[data-dpr="3"] footer a p{
+
+[data-dpr="3"] footer a p {
     font-size: 42px;
 }
+
+
 /*footer部分结束*/
 
 
+/*分类页开始*/
+
+.list {
+    width: 10rem;
+    margin: 0 auto;
+}
+
+.list .div1 {
+    width: 10rem;
+    height: 1.68rem;
+    position: fixed;
+    z-index: 10;
+    line-height: 1.68rem;    
+    background-color: rgb(255, 223, 0);
+}
 
 
 
+.list .div1 a {
+    font-size: 15px;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+[data-dpr="2"] .list .div1 a{
+    font-size: 30px;
+}
+
+[data-dpr="3"] .list .div1 a{
+    font-size: 45px;
+}
 
 
+.list .div1 ul {
+
+}
+.div1 ul li {
+    margin: 0 0.35rem;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
 
 
+.div2{
+     padding-left: 0.32rem;
+     padding-right: 0.32rem;
+}
+.div3,
+.div4,
+.div5,
+.div6,
+.div7{
+    width: 10rem;
+    display: none;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+
+}
+
+.list-tab{
+    padding-top: 1.68rem;
+    padding-bottom: 0.2rem;   
+
+}
+.list-tab .xx{
+    position: relative;
+    height: 1.226rem;
+    line-height: 1.266rem;    
+    text-align: center;
+    
+}
+.list-tab .xx span{
+    background: #fff;
+    font-size: 15px;
+}
+[data-dpr="2"] .list-tab .xx span{
+    font-size: 30px;
+}
+
+[data-dpr="3"] .list-tab .xx span {
+    font-size: 45px;
+}
+.list-tab .xx i{
+    width: 4rem;
+    height: 0.0142rem;
+    display: flex;
+    background-color: rgb(68, 68, 68);
+    position: absolute;
+    left: 32%;
+    top: 0.65rem;
+}
+
+.module-sudoku-row{
+    margin-bottom: 0.2rem;
+}
+.module-sudoku-row a{
+    text-align: center;
+    width: 2.666rem;
+    height: 3.1rem;
+    background: #fff;
+    display: inline-block;
+    margin-left: 0.25rem;
+    text-decoration: none;
+    
+}
+.module-sudoku-row a .img1{
+    width: 2.666rem;
+    height: 2.56rem;
+    border: 0.13rem solid #fff;
+}
+.module-sudoku-row a p{
+    height: 0.88rem;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+}
+[data-dpr="2"] .module-sudoku-row a p{
+    font-size: 26px;
+}
+
+[data-dpr="3"] .module-sudoku-row a p{
+    font-size: 39px;
+}
+
+.li6{
+    position: absolute;
+    right: 0.1trem;
+    top: 0;
+}
 
 
-
-
-
-
-
-
-
-
+/*分类页结束*/
